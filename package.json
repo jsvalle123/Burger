@@ -1,0 +1,29 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "burger app with node handlebars",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsvalle123/Burger.git"
+  },
+  "keywords": [
+    "handlebars"
+  ],
+  "author": "jaimie valle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsvalle123/Burger/issues"
+  },
+  "homepage": "https://github.com/jsvalle123/Burger#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql": "^2.18.1"
+  }
+}
